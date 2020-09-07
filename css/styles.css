@@ -11,8 +11,29 @@ body{
 a{
     text-decoration: none;
     color: black;
+    
 }
 
+p:hover{
+    text-shadow: 0px 0px 10px #FFF,
+/* Parte de luz */
+4px 2px 12px #DCB500,
+-4px 2px 12px #DCB500,
+/* Subida del fuego */
+0px -6px 14px #FF7A00,
+0px -12px 14px #FF6300,
+0px -20px 14px #FF4400;
+}
+h2:hover{
+    text-shadow: 0px 0px 10px #FFF,
+/* Parte de luz */
+4px 2px 12px #DCB500,
+-4px 2px 12px #DCB500,
+/* Subida del fuego */
+0px -6px 14px #FF7A00,
+0px -12px 14px #FF6300,
+0px -20px 14px #FF4400;
+}
 .item{
     padding:15px;
 }
@@ -174,9 +195,8 @@ a{
     padding-bottom: 0;
     padding-top: 0;
 }
-.logo{
-    display: inline-grid;
-}
+.logo{display: inline-grid;}
+
 .logo img{
     margin: auto;
     height: 50px;
@@ -273,6 +293,17 @@ a:-webkit-any-link{
       color: white;
   }
 
+  .twitter:hover{
+      color: rgb(29,161,242);
+  }
+
+  .github:hover{
+    color: rgb(36,41,46);
+  }
+
+  .instagram:hover{
+      color:rgb(243,117,59);
+  }
   @media  screen and (max-width: 768px){
     .logo img{
         height: 30px;
